@@ -1,0 +1,166 @@
+/*
+ * Globals
+ */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #333;
+  font-family: Lato;
+}
+
+/* HR */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fab319;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fab319;
+  border: .05rem solid #fab319;
+}
+
+/* Header styles */
+h1 {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+h5 {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+h6 {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+/* P tag style */
+p {
+    font-weight: 100;
+}
+
+
+/*
+ * Base structure
+ */
+
+ html,
+ body {
+   height: 100%;
+   background-color: #FFF;
+   color: #333;
+   margin: 0;
+ }
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+}
+
+.container {
+    max-width: 50em;
+}
+
+.bg-cover {
+    background-image: url("../img/bg/cover-alt.png");
+    background-color: #ffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #616161;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: #ffca58;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #333;
+  border-bottom-color: #fab319;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: #333;
+}
